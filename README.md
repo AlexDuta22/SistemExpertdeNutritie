@@ -4,6 +4,7 @@ Acest proiect reprezintă un sistem expert bazat pe reguli conceput pentru a gen
 Sistemul utilizează algoritmul de inferență Forward Chaining pentru a procesa datele utilizatorului și a oferi un plan alimentar orientativ, incluzând necesarul caloric, distribuția macronutrienților și recomandări de hidratare.
 
 ----Caracteristici principale----
+
 Calcul de indicatori biometrici: Determină automat BMI, BMR și TDEE pe baza profilului utilizatorului.
 Motor de inferență: Implementează un algoritm de tip Forward Chaining în JavaScript care rulează până la atingerea unui punct fix.
 Bază de cunoștințe flexibilă: Regulile sunt stocate extern într-un format JSON, permițând actualizarea ușoară a logicii nutriționale.
@@ -11,11 +12,13 @@ Interfață React Modernă: Formular intuitiv cu validare de date și afișare d
 Transparență (Inference Log): Utilizatorul poate vizualiza jurnalul detaliat al pașilor de inferență și regulile care au fost activate.
 
 ----Tehnologii utilizate-----
+
 Frontend: React (Hooks, Functional Components).
 Logica de calcul: JavaScript (ES6+).Stocare date: JSON pentru baza de cunoștințe.
 Stilizare: Componente personalizate (ChoiceCard, SelectButtonGroup).
 
 -----Structura Sistemului-----
+
 1. Baza de Cunoștințe (JSON)
 Este structurată în trei secțiuni:
 facts_schema: Definește tipurile de date și domeniile de valori.
